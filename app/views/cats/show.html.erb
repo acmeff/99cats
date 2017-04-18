@@ -42,4 +42,8 @@
       </tr>
     <% end %>
 
+
 </table>
+<%= link_to "Rent a cat", new_cat_rental_request_url, method: :post %>
+<%= link_to "All cats", cats_url, method: :get %>
+<%= link_to "Edit cat", edit_cat_url(@cat), method: :get %>
